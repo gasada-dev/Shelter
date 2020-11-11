@@ -56,7 +56,6 @@ h2{
 }
 a{
 	text-decoration: none;
-	color: #ffffff;
 	font-weight: 700;
 }
 input::-webkit-input-placeholder{
@@ -77,13 +76,35 @@ input::-webkit-input-placeholder{
 .content {
 	flex: 1 1 auto;
 }
+
 .header {
+	width: 1200px;
+	position: absolute;
+	top: 30px;
+	left: 40px;
+	background-color: #222222;
 }
 .header__row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
 }
-.header__body {
+.header__title {}
+.header__menu {}
+
+.first-section {
 }
-.header__title {
+.first-section__row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
-.header__menu {
+.first-section__body {
 }
+.first-section__img img{
+	width: 400px;
+	height: 400px;
+}
+
