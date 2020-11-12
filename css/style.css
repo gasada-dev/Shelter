@@ -81,8 +81,7 @@ body {
 	align-items: center;
 	justify-content: space-between;
 }
-.header__title {}
-.header__title h1 {
+.header__title {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 32px;
 	letter-spacing: 2px;
@@ -91,6 +90,7 @@ body {
 	color: #F1CDB3;
 	margin-bottom: 10px;
 }
+
 .header__title p {
 	font-size: 13px;
 	letter-spacing: 1.5px;
@@ -129,21 +129,29 @@ body {
 	margin-top: 40px;
 	width: 93%;
 }
-
+/* ? как сделать всю кнопку ссылкой, а не только текст ?- */
 .first-section__btn {
 	display: inline-block;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	color: #292929;
-	font-size: 15px;
-	line-height: 130%;
+	padding: 0px 45px;
 	background-color: #F1CDB3;
-	width: 210px;
-	height: 50px;
 	border-radius: 100px;
 	text-align: center;
 	line-height: 50px;
 	margin-top: 40px;
+	text-decoration: none;
 }
+.first-section__btn a {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: #292929;
+	font-size: 15px;
+	line-height: 130%;
+	letter-spacing: 1px;
+}
+.first-section__btn:hover {
+	background-color: #FDDCC4;
+}
+
+
 .first-section__img img{
 
 	width: 700px;
