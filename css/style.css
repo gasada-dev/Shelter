@@ -85,7 +85,7 @@ body {
 .header__title h1 {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 32px;
-	letter-spacing: 6%;
+	letter-spacing: 2px;
 	line-height: 110%;
 	font-weight: 400;
 	color: #F1CDB3;
@@ -93,8 +93,7 @@ body {
 }
 .header__title p {
 	font-size: 13px;
-	letter-spacing: 10%;
-	line-height: auto;
+	letter-spacing: 1.5px;
 }
 .header__menu a {
 	color: #FAFAFA;
@@ -113,28 +112,37 @@ body {
 	align-items: center;
 	padding: 180px 0 0 0;
 }
-.first-section__body {}
-.first-section__body h2{
+.first-section__body {
+	height: 400px;
+}
+.first-section__title{
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 44px;
 	line-height: 130%;
 	color: #ffffff;
 	width: 310px;
 }
-.first-section__body p{
+.first-section__text{
 	font-size: 15px;
 	line-height: 160%;
 	color: #CDCDCD;
+	margin-top: 40px;
+	width: 93%;
 }
-.first-section__body {
-	
-}
-.first-section__body a {
+
+.first-section__btn {
+	display: inline-block;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	color: #292929;
 	font-size: 15px;
 	line-height: 130%;
 	background-color: #F1CDB3;
+	width: 210px;
+	height: 50px;
+	border-radius: 100px;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 40px;
 }
 .first-section__img img{
 
