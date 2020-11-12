@@ -126,11 +126,15 @@ body {
 	line-height: 160%;
 	color: #CDCDCD;
 }
-.first-section__body button {
+.first-section__body {
+	
+}
+.first-section__body a {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	color: #292929;
 	font-size: 15px;
 	line-height: 130%;
+	background-color: #F1CDB3;
 }
 .first-section__img img{
 
