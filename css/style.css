@@ -63,12 +63,11 @@ body {
 .container {
 	max-width: 1280px;
 	margin: 0 auto;
-	padding: 0 40px 0 40px;
+	padding: 80px 40px 100px 40px;
 }
 .content {
 	flex: 1 1 auto;
 }
-
 .header {
 	position: absolute;
 	top: 60px;
@@ -80,6 +79,7 @@ body {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
+	margin:0 40px 0 40px;
 }
 .header__title {
 	font-family: Georgia, 'Times New Roman', Times, serif;
@@ -91,20 +91,18 @@ body {
 	margin-bottom: 10px;
 }
 
-.header__title p {
+.header__subtitle {
+	margin-left: 5px;
 	font-size: 13px;
-	letter-spacing: 1.5px;
+	letter-spacing: 1.3px;
+	color: #ffffff;
 }
-.header__menu {
-padding-bottom: 20px;
-}
-.header__menu a {
+.header__menu a{
 	color: #FAFAFA;
-	margin:0 9px;
+	margin:0 0 0 23px;
 	font-size: 15px;
 	letter-spacing: 0px;
 	line-height: 160%;
-	font-family: Arial, Helvetica, sans-serif;
 }
 .header__menu a:hover{
 	border-bottom: solid #F1CDB3;
@@ -119,7 +117,6 @@ padding-bottom: 20px;
 
 .first-section {
 	height: 908px;
-	width: 1280px;
 	background: url(../img/start-screen-background.jpg);
 }
 .first-section__row {
@@ -127,7 +124,7 @@ padding-bottom: 20px;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	padding: 180px 0 0 0;
+	padding: 100px 0 0 0;
 }
 .first-section__body {
 	height: 400px;
@@ -149,7 +146,7 @@ padding-bottom: 20px;
 /* ? как сделать всю кнопку ссылкой, а не только текст ?- */
 .first-section__btn {
 	display: inline-block;
-	padding: 0px 45px;
+	padding: 0px 30px;
 	background-color: #F1CDB3;
 	border-radius: 100px;
 	text-align: center;
@@ -162,20 +159,16 @@ padding-bottom: 20px;
 	color: #292929;
 	font-size: 15px;
 	line-height: 130%;
-	letter-spacing: 1px;
+	letter-spacing: 0.8px;
 }
 .first-section__btn:hover {
 	background-color: #FDDCC4;
 }
-
-
 .first-section__img img{
 
 	max-width: 700px;
 	max-height: 730px;
 }
-
-
 .second-section {
 	max-height: 588px;
 }
@@ -183,7 +176,7 @@ padding-bottom: 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 80px 175px 100px 175px;
+	margin: 0 175px 0 175px;
 }
 .second-section__img {	
 	margin:0 60px 100px 0;
@@ -206,4 +199,32 @@ padding-bottom: 20px;
 }
 .second-section__text p{
 	margin:25px 0;
+}
+
+.third-section {
+	height: 877px;
+	background-color: #F6F6F6;
+}
+.third-section__row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.third-section__title {
+	text-align: center;
+	font-size: 35px;
+	line-height: 130%;
+	letter-spacing: 2px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.third-section__images {
+}
+.third-section__Katrine {
+}
+.third-section__Jennifer {
+}
+.third-section__Woody {
+}
+.third-section__btn {
 }
