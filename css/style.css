@@ -146,7 +146,7 @@ body {
 /* ? как сделать всю кнопку ссылкой, а не только текст ?- */
 .first-section__btn {
 	display: inline-block;
-	padding: 0px 30px;
+	padding: 0px 45px;
 	background-color: #F1CDB3;
 	border-radius: 100px;
 	text-align: center;
@@ -203,7 +203,7 @@ body {
 
 .third-section {
 	height: 877px;
-	background-color: #F6F6F6;
+	background-color: #ae8484;
 }
 .third-section__row {
 	display: flex;
@@ -219,12 +219,82 @@ body {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .third-section__images {
+	display: flex;
+	flex-direction: row;
+	margin:60px 0 0 0;
+	text-align: center;
+
 }
-.third-section__Katrine {
+.third-section__images p{
+	margin: 30px 0;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+.third-section__images a{
+	display: inline-block;
+	padding: 0px 30px;
+	background-color: #FAFAFA;
+	border: solid 2px;
+	border-color: #F1CDB3;
+	border-radius: 100px;
+	text-align: center;
+	line-height: 50px;	
+	text-decoration: none;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 17px;
+	letter-spacing: 0px;
+
+}
+
+.third-section__btn-left img{
+	display: inline-block;
+	border: solid 1px;
+	border-color: #F1CDB3;
+	border-radius: 50%;
+	padding: 20px;
+	margin: 195px 10px 0 0;
+}
+
+.third-section__btn-right img{
+	display: inline-block;
+	border: solid 1px;
+	border-color: #F1CDB3;
+	border-radius: 50%;
+	padding: 20px;
+	margin: 195px 0 0 10px;
+}
+.third-section__Katrine {	
+	padding: 0px 30px;
+	background-color: #FAFAFA;
+	max-width: 270px;
+	margin:0 15px;
 }
 .third-section__Jennifer {
+	padding: 0px 30px;
+	background-color: #FAFAFA;
+	max-width: 270px;
+	margin:0 15px;
 }
 .third-section__Woody {
+	padding: 0px 30px;
+	background-color: #FAFAFA;
+	max-width: 270px;
+	margin:0 15px;
 }
+
+
 .third-section__btn {
+	display: inline-block;
+	padding: 0px 30px;
+	background-color: #F1CDB3;
+	border-radius: 100px;
+	text-align: center;
+	line-height: 55px;	
+	margin-top: 90px;
+	text-decoration: none;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 17px;
+	letter-spacing: 0px;
 }
