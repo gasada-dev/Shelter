@@ -203,7 +203,7 @@ body {
 
 .third-section {
 	height: 877px;
-	background-color: #ae8484;
+	background-color: #F6F6F6;
 }
 .third-section__row {
 	display: flex;
@@ -234,7 +234,7 @@ body {
 
 .third-section__images a{
 	display: inline-block;
-	padding: 0px 30px;
+	padding: 0px 35px;
 	background-color: #FAFAFA;
 	border: solid 2px;
 	border-color: #F1CDB3;
@@ -266,33 +266,33 @@ body {
 	margin: 195px 0 0 10px;
 }
 .third-section__Katrine {	
-	padding: 0px 30px;
 	background-color: #FAFAFA;
 	max-width: 270px;
-	margin:0 15px;
+	margin:0 45px;
+	padding-bottom: 30px;
 }
 .third-section__Jennifer {
-	padding: 0px 30px;
 	background-color: #FAFAFA;
 	max-width: 270px;
-	margin:0 15px;
+	margin:0 45px;
+	padding-bottom: 30px;
 }
 .third-section__Woody {
-	padding: 0px 30px;
 	background-color: #FAFAFA;
 	max-width: 270px;
-	margin:0 15px;
+	margin:0 45px;
+	padding-bottom: 30px;
 }
 
 
 .third-section__btn {
 	display: inline-block;
-	padding: 0px 30px;
+	padding: 0px 35px;
 	background-color: #F1CDB3;
 	border-radius: 100px;
 	text-align: center;
 	line-height: 55px;	
-	margin-top: 90px;
+	margin-top: 60px;
 	text-decoration: none;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 17px;
