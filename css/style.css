@@ -190,6 +190,7 @@ body {
 	line-height: 130%;
 	letter-spacing: 2px;
 	font-family: Georgia, 'Times New Roman', Times, serif;
+	
 
 }
 .second-section__text {
@@ -234,7 +235,7 @@ body {
 
 .third-section__images a{
 	display: inline-block;
-	padding: 0px 35px;
+	padding: 0px 40px;
 	background-color: #FAFAFA;
 	border: solid 2px;
 	border-color: #F1CDB3;
@@ -244,25 +245,26 @@ body {
 	text-decoration: none;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 17px;
-	letter-spacing: 0px;
+	letter-spacing: 1px;
+	font-weight: 400;
 
 }
 
 .third-section__btn-left img{
 	display: inline-block;
-	border: solid 1px;
+	border: solid 2px;
 	border-color: #F1CDB3;
 	border-radius: 50%;
-	padding: 20px;
+	padding: 21px 18px;
 	margin: 195px 10px 0 0;
 }
 
 .third-section__btn-right img{
 	display: inline-block;
-	border: solid 1px;
+	border: solid 2px;
 	border-color: #F1CDB3;
 	border-radius: 50%;
-	padding: 20px;
+	padding: 21px 18px;
 	margin: 195px 0 0 10px;
 }
 .third-section__Katrine {	
@@ -285,9 +287,9 @@ body {
 }
 
 
-.third-section__btn {
+.third-section__btn a{
 	display: inline-block;
-	padding: 0px 35px;
+	padding: 0px 45px;
 	background-color: #F1CDB3;
 	border-radius: 100px;
 	text-align: center;
@@ -296,5 +298,66 @@ body {
 	text-decoration: none;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 17px;
-	letter-spacing: 0px;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+
+.help{
+	height: 611px;
+}
+.help__row{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+}
+.help__title{
+	max-width: 308px;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 35px;
+	letter-spacing: 1.9px;
+	line-height: 130%;
+	margin: 0 0 60px 0;
+}
+.help__picture{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.help__picture h4{
+	padding-top: 30px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 115%;
+}
+.help__pet-food {
+	margin: 0 90px 30px 100px;
+}
+.help__transportation {
+	margin: 0 50px 0 50px;
+}
+.help__toys {
+	margin: 0 50px 0 50px;
+}
+.help__bowls-and-cups {
+	margin: 0 50px 0 50px;
+}
+.help__shampoos {
+	margin: 0 50px 0 0px;
+}
+.help__vitamins {
+	margin: 0 50px 0 150px;
+}
+.help__medicines {
+	margin: 0 50px 0 50px;
+}
+.help__collars-leashes {
+	margin: 0 68px 0 68px;
+}
+.help__slepping-arias {
+	margin: 0 68px 0 68px;
 }
