@@ -116,8 +116,8 @@ body {
 }
 
 .first-section {
-	height: 908px;
-	background: url(../img/start-screen-background.jpg);
+	background: url(../img/start-screen-background.jpg) no-repeat;
+	
 }
 .first-section__row {
 	display: flex;
@@ -127,7 +127,6 @@ body {
 	padding: 100px 0 0 0;
 }
 .first-section__body {
-	height: 400px;
 }
 .first-section__title{
 	font-family: Georgia, 'Times New Roman', Times, serif;
@@ -169,7 +168,6 @@ body {
 	max-height: 730px;
 }
 .second-section {
-	max-height: 588px;
 }
 .second-section__row {
 	display: flex;
@@ -202,7 +200,6 @@ body {
 }
 
 .third-section {
-	height: 877px;
 	background-color: #F6F6F6;
 }
 .third-section__row {
@@ -302,7 +299,6 @@ body {
 }
 
 .help{
-	height: 611px;
 }
 .help__row{
 	display: flex;
@@ -341,7 +337,6 @@ body {
 }
 .in-addition {
 	background-color: #F6F6F6;
-	height: 464px;
 }
 
 .in-addition__row {
