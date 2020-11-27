@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -127,7 +130,6 @@ body {
 .first-section {
 	background: url(../img/start-screen-gradient-background.png) no-repeat;
 	max-width: 1280px;
-	margin: 0 auto;
 	padding: 80px 40px 0 40px;
 }
 .first-section__row {
@@ -135,10 +137,10 @@ body {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	padding: 100px 0 0 0;
+	padding: 97px 0 0 0;
 }
 .first-section__body {
-	padding-bottom: 85px;
+	padding-bottom: 70px;
 }
 .first-section__title{
 	font-family: Georgia, 'Times New Roman', Times, serif;
@@ -174,9 +176,7 @@ body {
 .first-section__btn:hover {
 	background-color: #FDDCC4;
 }
-.first-section__img img{
-	max-width: 700px;
-	max-height: 730px;
+.first-section__img {
 }
 .second-section {
 }
@@ -294,13 +294,13 @@ body {
 
 
 .third-section__btn a{
-	display: inline-block;
+	display: block;
 	padding: 0px 45px;
 	background-color: #F1CDB3;
 	border-radius: 100px;
 	text-align: center;
-	line-height: 55px;	
-	margin-top: 60px;
+	line-height: 52px;	
+	margin-top: 57px;
 	text-decoration: none;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 17px;
@@ -318,7 +318,7 @@ body {
 
 }
 .help__title{
-	max-width: 308px;
+	max-width: 30%;
 	text-align: center;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 35px;
@@ -327,23 +327,42 @@ body {
 	margin: 0 0 60px 0;
 }
 .help__picture{
+	width: 100%;
+}
+.help__picture-top{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	text-align: center;
+	justify-content: space-between;
+	width: 85.5%;
+	margin: 0 auto;
+	margin-bottom: 55px;
 }
-.help__picture h4{
-	padding-top: 30px;
+.help__picture-bottom{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: space-between;
+	width: 71.5%;
+	margin: 0 auto;
+}
+.help__item-name{
+	margin-top: 27px;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 20px;
-	letter-spacing: 1px;
+	letter-spacing: 1.2px;
 	line-height: 115%;
 }
-.help__item{
-	margin: 0 40px 50px 85px;
+.help__item-top{
+
 }
-.help__item:nth-child(6){
-	margin: 0 40px 0 170px;
+.help__item-bottom{
+
+}
+.help__picture div:nth-child(6){
+
 }
 .in-addition {
 	background-color: #F6F6F6;
