@@ -79,7 +79,7 @@ body {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	margin:0 40px 0 40px;
+	margin:0 40px;
 }
 .header__title {
 	font-family: Georgia, 'Times New Roman', Times, serif;
@@ -97,27 +97,38 @@ body {
 	letter-spacing: 1.3px;
 	color: #ffffff;
 }
-.header__menu a{
+
+.header__item {
 	color: #FAFAFA;
-	margin:0 0 0 23px;
 	font-size: 15px;
-	letter-spacing: 0px;
+	letter-spacing: 0;
 	line-height: 160%;
+	font-weight: 400;
 }
-.header__menu a:hover{
+.header__table{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 443px;
+}
+.header__table li:first-child{
 	border-bottom: solid #F1CDB3;
 	border-width: 3px;
-	padding-bottom: 3px;
-}
-.header__menu a:first-child{
-	border-bottom: solid #F1CDB3;
-	border-width: 3px;
-	padding-bottom: 3px;
+	padding-bottom: 1px;
 }
 
+.header__item:hover{
+	border-bottom: solid #F1CDB3;
+	border-width: 3px;
+	padding-bottom: 1px;
+}
+
+/* padding прописан не в контейнере, потому-что картинка мешает и смещает другие блоки */
 .first-section {
-	background: url(../img/start-screen-background.jpg) no-repeat;
-	
+	background: url(../img/start-screen-gradient-background.png) no-repeat;
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 80px 40px 0 40px;
 }
 .first-section__row {
 	display: flex;
@@ -127,13 +138,14 @@ body {
 	padding: 100px 0 0 0;
 }
 .first-section__body {
+	padding-bottom: 85px;
 }
 .first-section__title{
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 44px;
 	line-height: 130%;
 	color: #ffffff;
-	width: 310px;
+	width: 70%;
 }
 .first-section__text{
 	font-size: 15px;
@@ -142,7 +154,6 @@ body {
 	margin-top: 40px;
 	width: 93%;
 }
-/* ? как сделать всю кнопку ссылкой, а не только текст ?- */
 .first-section__btn {
 	display: inline-block;
 	padding: 0px 45px;
@@ -150,7 +161,7 @@ body {
 	border-radius: 100px;
 	text-align: center;
 	line-height: 50px;	
-	margin-top: 40px;
+	margin-top: 42px;
 	text-decoration: none;
 }
 .first-section__btn a {
@@ -171,16 +182,15 @@ body {
 }
 .second-section__row {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0 175px 0 175px;
+	padding:0 175px;
 }
-.second-section__img {	
-	margin:0 60px 100px 0;
-
+.second-section__img{	
+	margin-right: 60px;
 }
 .second-section__body {
-	margin: 0 0 80px 60px;
+	margin-left: 60px;
+	padding-top: 10px;
+
 }
 .second-section__title {
 	font-size: 35px;
@@ -191,12 +201,12 @@ body {
 
 }
 .second-section__text {
-	max-width: 470px;
 	font-size: 15px;
 	line-height: 160%;
+
 }
-.second-section__text p{
-	margin:25px 0;
+.second-section__paragraph{
+	margin:25px 0 0 0;
 }
 
 .third-section {
