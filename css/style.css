@@ -125,7 +125,6 @@ body {
 	border-width: 3px;
 	padding-bottom: 1px;
 }
-
 /* padding прописан не в контейнере, потому-что картинка мешает и смещает другие блоки */
 .first-section {
 	background: url(../img/start-screen-gradient-background.png) no-repeat;
@@ -137,10 +136,10 @@ body {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	padding: 97px 0 0 0;
+	padding: 100px 0 0 0;
 }
 .first-section__body {
-	padding-bottom: 70px;
+	padding-bottom: 82px;
 }
 .first-section__title{
 	font-family: Georgia, 'Times New Roman', Times, serif;
@@ -153,7 +152,7 @@ body {
 	font-size: 15px;
 	line-height: 160%;
 	color: #CDCDCD;
-	margin-top: 40px;
+	margin-top: 42px;
 	width: 93%;
 }
 .first-section__btn {
@@ -162,16 +161,19 @@ body {
 	background-color: #F1CDB3;
 	border-radius: 100px;
 	text-align: center;
-	line-height: 50px;	
+	line-height: 52px;	
 	margin-top: 42px;
 	text-decoration: none;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 17px;
+	letter-spacing: 1px;
+
 }
 .first-section__btn a {
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: 400;
 	color: #292929;
-	font-size: 15px;
-	line-height: 130%;
-	letter-spacing: 0.8px;
+
+
 }
 .first-section__btn:hover {
 	background-color: #FDDCC4;
@@ -189,7 +191,7 @@ body {
 }
 .second-section__body {
 	margin-left: 60px;
-	padding-top: 10px;
+	padding-top: 15px;
 
 }
 .second-section__title {
