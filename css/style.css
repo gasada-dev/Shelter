@@ -71,6 +71,19 @@ body {
 .content {
 	flex: 1 1 auto;
 }
+.button{
+	font-weight: 400;
+	color: #292929;
+	display: inline-block;
+	padding: 17.5px 45px;
+	background-color: #F1CDB3;
+	border-radius: 100px;
+	text-align: center;
+	text-decoration: none;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 17px;
+	letter-spacing: 1px;
+}
 .header {
 	position: absolute;
 	top: 60px;
@@ -126,75 +139,65 @@ body {
 	padding-bottom: 1px;
 }
 /* padding прописан не в контейнере, потому-что картинка мешает и смещает другие блоки */
-.first-section {
+.not-only {
 	background: url(../img/start-screen-gradient-background.png) no-repeat;
 	max-width: 1280px;
 	padding: 80px 40px 0 40px;
 }
-.first-section__row {
+.not-only__row {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	padding: 100px 0 0 0;
 }
-.first-section__body {
+.not-only__body {
 	padding-bottom: 82px;
 }
-.first-section__title{
+.title{
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size: 44px;
+	font-size: 35px;
 	line-height: 130%;
-	color: #ffffff;
-	width: 70%;
+	color: #545454;
+	letter-spacing: 2.1px;
 }
-.first-section__text{
+.title--big{
+	font-size: 44px;
+	letter-spacing: 0px;
+}
+.title--white{
+	color: #ffffff;
+}
+.title--center{
+	text-align: center;
+}
+.not-only__text{
 	font-size: 15px;
 	line-height: 160%;
 	color: #CDCDCD;
-	margin-top: 42px;
+	margin: 42px 0;
 	width: 93%;
 }
-.first-section__btn {
-	display: inline-block;
-	padding: 0px 45px;
-	background-color: #F1CDB3;
-	border-radius: 100px;
-	text-align: center;
-	line-height: 52px;	
-	margin-top: 42px;
-	text-decoration: none;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size: 17px;
-	letter-spacing: 1px;
-
-}
-.first-section__btn a {
-	font-weight: 400;
-	color: #292929;
-
-
-}
-.first-section__btn:hover {
+.not-only__btn:hover {
 	background-color: #FDDCC4;
 }
-.first-section__img {
+.not-only__img {
 }
-.second-section {
+.about {
 }
-.second-section__row {
+.about__row {
 	display: flex;
 	padding:0 175px;
 }
-.second-section__img{	
+.about__img{	
 	margin-right: 60px;
 }
-.second-section__body {
+.about__body {
 	margin-left: 60px;
 	padding-top: 15px;
 
 }
-.second-section__title {
+.about__title {
 	font-size: 35px;
 	line-height: 130%;
 	letter-spacing: 2px;
@@ -202,63 +205,47 @@ body {
 	
 
 }
-.second-section__text {
+.about__text {
 	font-size: 15px;
 	line-height: 160%;
 
 }
-.second-section__paragraph{
+.about__paragraph{
 	margin:25px 0 0 0;
 }
 
-.third-section {
+.our-friends {
 	background-color: #F6F6F6;
 }
-.third-section__row {
+.our-friends__row {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 }
-.third-section__title {
-	text-align: center;
-	font-size: 35px;
-	line-height: 130%;
-	letter-spacing: 2px;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.third-section__images {
+
+.our-friends__images {
 	display: flex;
 	flex-direction: row;
 	margin:60px 0 0 0;
 	text-align: center;
 
 }
-.third-section__images p{
-	margin: 30px 0;
+.our-friends__pet-name{
+	margin: 27px 0 32px 0;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 20px;
-	letter-spacing: 1px;
+	letter-spacing: 1.2px;
 }
 
-.third-section__images a{
-	display: inline-block;
-	padding: 0px 40px;
+.button--white{
 	background-color: #FAFAFA;
-	border: solid 2px;
+	border: solid 2px ;
 	border-color: #F1CDB3;
-	border-radius: 100px;
-	text-align: center;
-	line-height: 50px;	
-	text-decoration: none;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size: 17px;
-	letter-spacing: 1px;
-	font-weight: 400;
-
+	padding: 15px 42px;
 }
 
-.third-section__btn-left img{
+.arrow{
 	display: inline-block;
 	border: solid 2px;
 	border-color: #F1CDB3;
@@ -266,48 +253,18 @@ body {
 	padding: 21px 18px;
 	margin: 195px 10px 0 0;
 }
-
-.third-section__btn-right img{
-	display: inline-block;
-	border: solid 2px;
-	border-color: #F1CDB3;
-	border-radius: 50%;
-	padding: 21px 18px;
+.arrow--right{
 	margin: 195px 0 0 10px;
 }
-.third-section__Katrine {	
+.our-friends__card {	
 	background-color: #FAFAFA;
 	max-width: 270px;
 	margin:0 45px;
-	padding-bottom: 30px;
-}
-.third-section__Jennifer {
-	background-color: #FAFAFA;
-	max-width: 270px;
-	margin:0 45px;
-	padding-bottom: 30px;
-}
-.third-section__Woody {
-	background-color: #FAFAFA;
-	max-width: 270px;
-	margin:0 45px;
-	padding-bottom: 30px;
+	padding-bottom: 31px;
 }
 
-
-.third-section__btn a{
-	display: block;
-	padding: 0px 45px;
-	background-color: #F1CDB3;
-	border-radius: 100px;
-	text-align: center;
-	line-height: 52px;	
-	margin-top: 57px;
-	text-decoration: none;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size: 17px;
-	letter-spacing: 1px;
-	font-weight: 400;
+.our-friends__button{
+	margin-top: 60px;
 }
 
 .help{
@@ -320,12 +277,6 @@ body {
 
 }
 .help__title{
-	max-width: 30%;
-	text-align: center;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size: 35px;
-	letter-spacing: 1.9px;
-	line-height: 130%;
 	margin: 0 0 60px 0;
 }
 .help__picture{
@@ -378,13 +329,9 @@ body {
 	margin: 10px 0 0 140px;
 }
 .in-addition__body {
-	margin: 0 0 0 30px;
+	margin-left: 30px;
 }
 .in-addition__title {
-	font-size: 35px;
-	line-height: 130%;
-	letter-spacing: 2px;
-	font-family: Georgia, 'Times New Roman', Times, serif;
 	margin-bottom: 20px;
 }
 .in-addition__text {
