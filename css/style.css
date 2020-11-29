@@ -308,15 +308,7 @@ body {
 	letter-spacing: 1.2px;
 	line-height: 115%;
 }
-.help__item-top{
 
-}
-.help__item-bottom{
-
-}
-.help__picture div:nth-child(6){
-
-}
 .in-addition {
 	background-color: #F6F6F6;
 }
@@ -326,13 +318,14 @@ body {
 	flex-direction: row;
 }
 .in-addition__img {
-	margin: 10px 0 0 140px;
+	margin-top: 12px;
+	padding-left: 142px;
 }
 .in-addition__body {
 	margin-left: 30px;
 }
 .in-addition__title {
-	margin-bottom: 20px;
+	margin-bottom: 17px;
 }
 .in-addition__text {
 	color: #545454;
@@ -340,7 +333,7 @@ body {
 	letter-spacing: 0.9px;
 	line-height: 160%;
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	margin-bottom: 15px;
+	margin-bottom: 16px;
 
 }
 .in-addition__link {
@@ -349,17 +342,16 @@ body {
 	align-items: center;
 	flex-direction: row;
 	background-color: #F1CDB3;
-	width: 349px;
-	height: 43px;
-	border-radius: 11px;
-	margin-bottom: 20px;
+	padding: 10px 0;
+	width: 67%;
+	border-radius: 10px;
+	margin-bottom: 22px;
 }
 .in_addittion__number{
 	padding-left: 15px;
 	color: #545454;
 	font-size: 20px;
-	letter-spacing: 0.9px;
-	line-height: 100%;
+	letter-spacing: 1.2px;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-weight: 400;
 }
@@ -369,6 +361,55 @@ body {
 	letter-spacing: 0px;
 	line-height: 18px;
 	font-style: italic;
-	max-width: 380px;
+	width: 70%;
 	font-family:Arial, Helvetica, sans-serif;
+}
+.footer {
+	background: url(../img/footer-gradient-background.png);
+}
+.footer__row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	padding: 40px 40px 0 40px;
+}
+.footer__left-column {
+	width: 25%;
+	padding-top: 16px;
+}
+.footer__title {
+}
+.footer__contacts {
+}
+.footer__item{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 33px;
+}
+.footer__item--padding{
+	margin-top: 40px;
+}
+.footer__text{
+	color: #F1CDB3;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 1.2px;
+	line-height: 115%;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	padding-left: 20px;
+}
+.footer__marker{
+	height: 32px;
+	width: 22px;
+}
+
+.footer__middle-column {
+	width: 25%;
+	padding-top: 16px;
+	margin-right: 22px;
+}
+.footer__right-column {
+	width: 25%;
 }
