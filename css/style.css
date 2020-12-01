@@ -84,6 +84,10 @@ body {
 	font-size: 17px;
 	letter-spacing: 1px;
 }
+.button:hover{
+	background-color: #FDDCC4;
+}
+
 .header {
 	position: absolute;
 	top: 60px;
@@ -113,36 +117,40 @@ body {
 	letter-spacing: 1.3px;
 	color: #ffffff;
 }
-
-.header__item {
-	color: #FAFAFA;
-	font-size: 15px;
-	letter-spacing: 0;
-	line-height: 160%;
-	font-weight: 400;
-}
 .header__table{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	width: 443px;
 }
+.header__item {
+	color: #CDCDCD;
+	font-size: 15px;
+	letter-spacing: 0;
+	line-height: 160%;
+	font-weight: 400;
+}
+
 .header__table li:first-child{
 	border-bottom: solid #F1CDB3;
 	border-width: 3px;
-	padding-bottom: 1px;
 }
 
-.header__item:hover{
+.header__item:active{
 	border-bottom: solid #F1CDB3;
 	border-width: 3px;
-	padding-bottom: 1px;
+	padding-bottom: 4px;
 }
+.header__item:hover{
+	color: #FAFAFA;
+}
+ 
 /* padding прописан не в контейнере, потому-что картинка мешает и смещает другие блоки */
 .not-only {
 	background: url(../img/start-screen-gradient-background.png) no-repeat;
 	max-width: 1280px;
 	padding: 80px 40px 0 40px;
+	margin: 0 auto;
 }
 .not-only__row {
 	display: flex;
@@ -178,13 +186,8 @@ body {
 	margin: 42px 0;
 	width: 93%;
 }
-.not-only__btn:hover {
-	background-color: #FDDCC4;
-}
-.not-only__img {
-}
-.about {
-}
+
+
 .about__row {
 	display: flex;
 	padding:0 175px;
@@ -241,17 +244,22 @@ body {
 .button--white{
 	background-color: #FAFAFA;
 	border: solid 2px ;
-	border-color: #F1CDB3;
+	border-color: #FDDCC4;
 	padding: 15px 42px;
 }
-
+.button--white:hover{
+	background-color: #FDDCC4;
+}
 .arrow{
 	display: inline-block;
 	border: solid 2px;
-	border-color: #F1CDB3;
+	border-color: #FDDCC4;
 	border-radius: 50%;
 	padding: 21px 18px;
 	margin: 195px 10px 0 0;
+}
+.arrow:hover{
+	background-color: #FDDCC4;
 }
 .arrow--right{
 	margin: 195px 0 0 10px;
@@ -261,20 +269,19 @@ body {
 	max-width: 270px;
 	margin:0 45px;
 	padding-bottom: 31px;
+	
 }
-
+.our-friends__img:hover{
+	background-color: #F1CDB3;
+}
 .our-friends__button{
 	margin-top: 60px;
-}
-
-.help{
 }
 .help__row{
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-
 }
 .help__title{
 	margin: 0 0 60px 0;
@@ -347,6 +354,9 @@ body {
 	border-radius: 10px;
 	margin-bottom: 22px;
 }
+.in-addition__link:hover {
+	background-color: #FDDCC4;
+}
 .in_addittion__number{
 	padding-left: 15px;
 	color: #545454;
@@ -366,6 +376,7 @@ body {
 }
 .footer {
 	background: url(../img/footer-gradient-background.png);
+	margin: 0 auto;
 }
 .footer__row {
 	display: flex;
@@ -378,10 +389,7 @@ body {
 	width: 25%;
 	padding-top: 16px;
 }
-.footer__title {
-}
-.footer__contacts {
-}
+
 .footer__item{
 	display: flex;
 	flex-direction: row;
@@ -399,6 +407,10 @@ body {
 	line-height: 115%;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	padding-left: 20px;
+}
+.footer__text:hover{
+	color: #FDDCC4;
+	
 }
 .footer__marker{
 	height: 32px;
