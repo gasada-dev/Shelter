@@ -99,7 +99,8 @@ body {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	margin:0 40px;
+	margin: 0 auto;
+	max-width: 1200px;
 }
 .header__title {
 	font-family: Georgia, 'Times New Roman', Times, serif;
@@ -271,8 +272,8 @@ body {
 	padding-bottom: 31px;
 	
 }
-.our-friends__img:hover{
-	background-color: #F1CDB3;
+.our-friends__card:hover{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .our-friends__button{
 	margin-top: 60px;
